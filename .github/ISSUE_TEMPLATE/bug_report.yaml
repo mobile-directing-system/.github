@@ -11,7 +11,7 @@ body:
       validations:
         required: true
     - type: textarea
-      id: bug_expected behavior
+      id: bug_expected_behavior
       attributes:
         label: Describe the expected behavior
         description: Please describe the beavior which is expected instead of the bug.
