@@ -35,7 +35,7 @@ body:
       id: bug_further_info
       attributes:
         label: Further Information
-        description: If you have further information such as system information or further source such as forum links, list it here.
+        description: If you have further information such as system information or further source such as forum links, list it here. This section can also be used to add screenshots or other visual material to the report by attaching it to the text area.
       validations:
         required: false
 
