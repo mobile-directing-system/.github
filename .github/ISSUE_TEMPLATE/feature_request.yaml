@@ -1,0 +1,40 @@
+name: Feature Request
+description: Create a Feature Request to suggest further improvements for the project
+title: "[FEATURE]: "
+labels: ["type:suggestion", "scope:implementation"]
+body:
+    - type: textarea
+      id: feature_motivation
+      attributes:
+        label: Feature Motivation
+        description: Please describe if your feature request is related to a problem? Describe your motivation.
+      validations:
+        required: true
+    - type: textarea
+      id: feature_solution
+      attributes:
+        label: Solution Description
+        description: Please describe the solution you'd like to see.
+      validations:
+        required: true
+    - type: textarea
+      id: feature_acceptance
+      attributes:
+        label: feature_acceptance_criteria
+        description: Please list the minimal requirements in the form of a check list.
+      validations:
+        required: true
+    - type: textarea
+      id: feature_further_info
+      attributes:
+        label: Further Information
+        description: Add additional sources, such as links, information, pictures, sketches, etc.
+      validations:
+        required: false
+    - type: textarea
+      id: feature_related_issues
+      attributes:
+        label: Related Issues
+        description: Please list issues related to this feature request in the form <issuetitle>#<issuenumber>.
+      validations:
+        required: false

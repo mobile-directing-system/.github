@@ -1,0 +1,26 @@
+name: Change Request
+description: Create a Change Request to suggest changes to the project
+title: "[CHANGE]: "
+labels: ["type:suggestion", "scope:implementation"]
+body:
+    - type: textarea
+      id: change_description
+      attributes:
+        label: Desired Change
+        description: Please describe the changes you are suggesting.
+        required: true
+    - type: textarea
+      id: change_reason
+      attributes:
+        label: Reason/Motivation for Change
+        description: Please describe the Motivation or reason for this change.
+      validations:
+        required: true
+    - type: textarea
+      id: change_impact
+      attributes:
+        label: Impact of Change
+        description: Please describe, if you are able to, how these changes impact the project or what components need to be changed.
+      validations:
+        required: false
+

@@ -1,0 +1,18 @@
+name: Documentation Request
+description: Create a Documentation Request to suggest how the project could be further documented
+title: "[DOCUMENTATION]: "
+labels: ["type:suggestion", "scope:documentation"]
+body:
+    - type: textarea
+      id: documentation_location
+      attributes:
+        label: Location of Missing Information
+        description: Please describe where some information is missing.
+        required: true
+    - type: textarea
+      id: documentation_missing_content
+      attributes:
+        label: What is Missing
+        description: Please describe what is missing or inaccurate about the current content.
+      validations:
+        required: true
