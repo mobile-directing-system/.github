@@ -8,6 +8,7 @@ body:
       attributes:
         label: Desired Change
         description: Please describe the changes you are suggesting.
+      validations:
         required: true
     - type: textarea
       id: change_reason

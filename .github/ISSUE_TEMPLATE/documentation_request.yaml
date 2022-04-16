@@ -8,6 +8,7 @@ body:
       attributes:
         label: Location of Missing Information
         description: Please describe where some information is missing.
+      validations:
         required: true
     - type: textarea
       id: documentation_missing_content
