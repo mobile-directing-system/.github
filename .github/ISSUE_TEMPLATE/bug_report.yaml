@@ -1,0 +1,36 @@
+name: Bug Report
+description: Create a Bug Report to improve the product
+title: "[BUG]: "
+labels: ["type:bug", "scope:implementation"]
+body:
+    - type: textarea
+      id: bug_description
+      attributes:
+        label: Describe the bug
+        description: Please describe how the bug manifests here
+        required: true
+    - type: textarea
+      id: bug_expected behavior
+      attributes:
+        label: Describe the expected behavior
+        description: Please describe the beavior which is expected instead of the bug
+        required: true
+    - type: textarea
+      id: bug_reproduction
+      attributes:
+        label: Steps to reproduce
+        description: Please describe how to reproduce the bug step by step
+        required: true
+    - type: textarea
+      id: bug_solutions
+      attributes:
+        label: Possible Solutions
+        description: If you are aware of a possible fix for the bug please describe it here
+        required: false
+    - type: textarea
+      id: bug_further_info
+      attributes:
+        label: Further Information
+        description: If you have further information such as system information or further source such as forum links, list it here
+        required: false
+
